@@ -1,0 +1,11 @@
+version: 1
+type: maven
+resolver:
+    serverId: sumanthpsmea
+    snapshotRepo: sumlearn-maven-remote
+    releaseRepo: sumlearn-maven-remote
+deployer:
+    serverId: sumanthpsmea
+    snapshotRepo: sumlearn-maven
+    releaseRepo: sumlearn-maven
+useWrapper: true
