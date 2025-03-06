@@ -33,7 +33,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- deploy test jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -50,7 +49,6 @@
 
     <dependencies>
         <!-- Updated dependencies to avoid vulnerabilities -->
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-email</artifactId>
@@ -98,7 +96,6 @@
     </dependencies>
 
     <repositories>
-        <!-- Add Maven Central repository to resolve dependencies -->
         <repository>
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
