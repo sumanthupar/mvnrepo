@@ -10,8 +10,7 @@
     <packaging>pom</packaging>
 
     <name>Multi Parent</name>
-    
-    <!-- Repositories Configuration -->
+
     <repositories>
         <repository>
             <id>central</id>
@@ -22,10 +21,10 @@
             <url>https://psblr.jfrog.io/artifactory/jenk-mvn-virt</url>
         </repository>
     </repositories>
-    
+
     <dependencyManagement>
         <dependencies>
-            <!-- Add any shared dependencies across multi1, multi2, multi3 here -->
+            <!-- Define shared dependencies across projects here -->
         </dependencies>
     </dependencyManagement>
 
